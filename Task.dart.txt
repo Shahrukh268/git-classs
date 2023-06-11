@@ -1,0 +1,18 @@
+void main(){
+    String email = "muhammadshahrukh268@gmail.com";
+    String password = "shahrukh12";
+    if (email == "muhammadshahrukh268@gmail.com" && password == "shahrukh12") {
+        print("Login Successfully");
+    } else {
+        if(email != "muhammadshahrukh268@gmail.com" && password != "shahrukh12") {
+            print("Both email and password are incorrect");
+        }
+        else if (email != "muhammadshahrukh268@gmail.com"){
+            print("email is incorrect");
+        } else {
+            print("password is incorrect");
+        }
+    }
+         }
+
+    
